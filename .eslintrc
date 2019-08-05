@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true
+  },
+  "plugins": ["babel", "import", "react"],
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "rules": {
+    "object-curly-spacing": ["error", "never"],
+    "react/prop-types": 0
+  }
+}

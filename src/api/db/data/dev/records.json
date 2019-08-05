@@ -1,0 +1,14 @@
+[
+  { "_id": "Movie1", "_type": "Movie", "title": "Hello 1", "year": 2009 },
+  { "_id": "Movie2", "_type": "Movie", "title": "Hello 2", "year": 2010 },
+  { "_id": "Movie3", "_type": "Movie", "title": "Hello 3", "year": 2011 },
+  {
+    "_id": "Movie4",
+    "_type": "Movie",
+    "title": "Hello 4",
+    "year": 2012,
+    "director": { "_type": "reference", "_ref": "Person1" }
+  },
+  { "_id": "Person1", "_type": "Person", "name": "Marius" },
+  { "_id": "Person2", "_type": "Person", "name": "Anna" }
+]
