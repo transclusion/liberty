@@ -1,9 +1,9 @@
 import {set} from 'segmented-property'
-import {parse} from '../parse'
-import {evalQuery} from '../eval'
+import {parse} from '../query/parse'
+import {evalQuery} from '../query/eval'
 import {createId} from './utils'
 
-export function create (schema) {
+export function createDb (schema) {
   let isSupported = true
   let db
 

@@ -3,8 +3,8 @@
 const bodyParser = require('body-parser')
 const express = require('express')
 const getObjectHash = require('object-hash')
-const parseQuery = require('../lib/parse').parse
-const evalQuery = require('../lib/eval').evalQuery
+const parseQuery = require('../lib/query/parse').parse
+const evalQuery = require('../lib/query/eval').evalQuery
 const createDb = require('./db').create
 
 const api = express()

@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import {HistoryContext} from '../../contexts'
+import {HistoryContext} from '../'
 
 export function Link ({children, path, ...props}) {
   const {pushState} = useContext(HistoryContext)

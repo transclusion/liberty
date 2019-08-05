@@ -1,8 +1,11 @@
 import React, {useContext, useEffect, useState} from 'react'
-import {HistoryContext} from '../contexts'
 import {DataExplorerScreen} from './screens/dataExplorer'
 import {DeskScreen} from './screens/desk'
 import {HomeScreen} from './screens/home'
+
+export const DbContext = React.createContext(null)
+export const HistoryContext = React.createContext(null)
+export const StoreContext = React.createContext(null)
 
 function matchRoute (loc) {
   if (loc.path === '/') return {name: 'home', params: loc.query}

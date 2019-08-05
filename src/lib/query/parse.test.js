@@ -8,7 +8,7 @@ const schema = {
   ]
 }
 
-describe('parse', () => {
+describe('query/parse', () => {
   it('should parse query with reference projection', () => {
     const ast = parse(schema, `{ ref-> { key } }`)
     expect(ast).toEqual({

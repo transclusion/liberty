@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import {Form} from '../../components/form'
 import {Link} from '../../containers/link'
 import {Nav} from '../../containers/nav'
-import {DbContext, HistoryContext} from '../../../contexts'
+import {DbContext, HistoryContext} from '../../'
 import {createId} from '../../../lib/db/utils'
 
 const PaneContainer = styled.div`

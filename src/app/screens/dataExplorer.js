@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react'
 import JSONTree from 'react-json-tree'
-import {DbContext} from '../../contexts'
+import {DbContext} from '../'
 import {CodeEditor} from '../components/codeEditor'
 import {Nav} from '../containers/nav'
 
